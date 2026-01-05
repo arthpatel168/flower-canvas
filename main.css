@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+}
+
+.container {
+    position: fixed;
+    inset: 0;
+}
+
+canvas {
+    position: absolute;
+    inset: 0;
+}
+
+.clean-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.name {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+    pointer-events: none;
+}
